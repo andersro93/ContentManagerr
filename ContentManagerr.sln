@@ -6,6 +6,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{35B49707
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContentManagerr.Domain", "src\ContentManagerr.Domain\ContentManagerr.Domain.csproj", "{CEB3E2F5-2058-41F9-834B-6EE8F38CAA78}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContentManagerr.Application", "src\ContentManagerr.Application\ContentManagerr.Application.csproj", "{0CD01C8E-1977-4DF7-800D-402856591095}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,11 +15,16 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{CEB3E2F5-2058-41F9-834B-6EE8F38CAA78} = {D2BE9F3F-5808-43CE-B95F-0EA1F2411188}
+		{0CD01C8E-1977-4DF7-800D-402856591095} = {D2BE9F3F-5808-43CE-B95F-0EA1F2411188}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{CEB3E2F5-2058-41F9-834B-6EE8F38CAA78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CEB3E2F5-2058-41F9-834B-6EE8F38CAA78}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CEB3E2F5-2058-41F9-834B-6EE8F38CAA78}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CEB3E2F5-2058-41F9-834B-6EE8F38CAA78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CD01C8E-1977-4DF7-800D-402856591095}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CD01C8E-1977-4DF7-800D-402856591095}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CD01C8E-1977-4DF7-800D-402856591095}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CD01C8E-1977-4DF7-800D-402856591095}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
