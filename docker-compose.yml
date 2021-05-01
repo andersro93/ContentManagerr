@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  appDb: 
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    environment:
+      - "ACCEPT_EULA=Y"
+      - "SA_PASSWORD=C0nt3ntM4n4g3rr!"
+      - "MSSQL_PID=developer"
+    ports:
+      - 1433:1433
+    restart: unless-stopped
