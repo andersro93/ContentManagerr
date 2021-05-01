@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContentManagerr.Application
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContentManagerr.Infrastructure", "src\ContentManagerr.Infrastructure\ContentManagerr.Infrastructure.csproj", "{B2BAFAA6-26AB-40CC-855D-9DCD8981E841}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContentManagerr.Infrastructure.Persistence", "src\ContentManagerr.Infrastructure.Persistence\ContentManagerr.Infrastructure.Persistence.csproj", "{4F17A6C0-E697-4A72-BFD9-63C2ECD03755}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,7 @@ Global
 		{CEB3E2F5-2058-41F9-834B-6EE8F38CAA78} = {D2BE9F3F-5808-43CE-B95F-0EA1F2411188}
 		{0CD01C8E-1977-4DF7-800D-402856591095} = {D2BE9F3F-5808-43CE-B95F-0EA1F2411188}
 		{B2BAFAA6-26AB-40CC-855D-9DCD8981E841} = {D2BE9F3F-5808-43CE-B95F-0EA1F2411188}
+		{4F17A6C0-E697-4A72-BFD9-63C2ECD03755} = {D2BE9F3F-5808-43CE-B95F-0EA1F2411188}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{CEB3E2F5-2058-41F9-834B-6EE8F38CAA78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -33,5 +36,9 @@ Global
 		{B2BAFAA6-26AB-40CC-855D-9DCD8981E841}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2BAFAA6-26AB-40CC-855D-9DCD8981E841}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2BAFAA6-26AB-40CC-855D-9DCD8981E841}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F17A6C0-E697-4A72-BFD9-63C2ECD03755}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F17A6C0-E697-4A72-BFD9-63C2ECD03755}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F17A6C0-E697-4A72-BFD9-63C2ECD03755}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F17A6C0-E697-4A72-BFD9-63C2ECD03755}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

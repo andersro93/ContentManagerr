@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 
 namespace ContentManagerr.Domain.Entities
 {
@@ -13,6 +14,7 @@ namespace ContentManagerr.Domain.Entities
     {
         public Guid Id { get; set; }
         public string Name { get; set; }
+        public ICollection<User> Users { get; set; }
         public TenantStatus Status { get; set; }
     }
 }
