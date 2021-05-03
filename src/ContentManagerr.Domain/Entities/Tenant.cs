@@ -15,6 +15,7 @@ namespace ContentManagerr.Domain.Entities
         public Guid Id { get; set; }
         public string Name { get; set; }
         public ICollection<User> Users { get; set; }
+        public ICollection<Application> Applications { get; set; }
         public TenantStatus Status { get; set; }
     }
 }

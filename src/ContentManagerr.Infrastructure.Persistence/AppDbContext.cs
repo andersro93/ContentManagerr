@@ -12,6 +12,11 @@ namespace ContentManagerr.Infrastructure.Persistence
         internal const string ConnectionStringKey = "AppDb";
         
         public DbSet<Tenant> Tenants { get; set; }
+        public DbSet<Language> Languages { get; set; }
+        public DbSet<Domain.Entities.Application> Applications { get; set; }
+        public DbSet<Article> Articles { get; set; }
+        public DbSet<ArticleVersion> ArticleVersions { get; set; }
+        public DbSet<Translation> Translations { get; set; }
         public DbSet<User> Users { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

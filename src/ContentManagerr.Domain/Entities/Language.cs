@@ -3,14 +3,15 @@ using System.Collections.Generic;
 
 namespace ContentManagerr.Domain.Entities
 {
-    public class Application
+    public class Language
     {
         public Guid Id { get; set; }
         public Tenant Tenant { get; set; }
-        public string Name { get; set; }
+        public string Code { get; set; }
         
-        public ICollection<Language> Languages { get; set; }
-        public ICollection<Article> Articles { get; set; }
+        public ICollection<Application> Applications { get; set; }
         public ICollection<Translation> Translations { get; set; }
+        public ICollection<ArticleVersion> ArticleVersions { get; set; }
+        public ICollection<User> Users { get; set; }
     }
 }

@@ -19,6 +19,10 @@ namespace ContentManagerr.Infrastructure.Persistence.Configuration
                 .HasMany(t => t.Users)
                 .WithOne(u => u.Tenant);
 
+            builder
+                .HasMany(t => t.Applications)
+                .WithOne(a => a.Tenant);
+
             builder.Property(t => t.Status);
         }
     }

@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 
 namespace ContentManagerr.Domain.Entities
 {
@@ -19,5 +20,10 @@ namespace ContentManagerr.Domain.Entities
         public string Email { get; set; }
         public string PhoneNumber { get; set; }
         public UserStatus Status { get; set; }
+        public ICollection<Language> Languages { get; set; }
+        
+        public ICollection<ArticleVersion> ArticleVersionsCreated { get; set; }
+        public ICollection<ArticleVersion> ArticleVersionsUpdated { get; set; }
+        public ICollection<ArticleVersion> ArticleVersionsDeleted { get; set; }
     }
 }
